@@ -229,8 +229,8 @@
     <Compile Include="Assets\AxeyWorks\Low Poly v2\Scripts\PolyWater.cs" />
     <Compile Include="Assets\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
     <Compile Include="Assets\Scripts\DeathScript.cs" />
+    <Compile Include="Assets\Scripts\DeplacementZombie_Script.cs" />
     <Compile Include="Assets\Scripts\DoorScript.cs" />
-    <Compile Include="Assets\Scripts\PlateformeScript.cs" />
     <Compile Include="Assets\Scripts\Zombie_Script.cs" />
   </ItemGroup>
   <ItemGroup>
