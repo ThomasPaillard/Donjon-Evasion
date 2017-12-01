@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evasion.Plugins", "Evasion.Plugins.csproj", "{B20FFF9F-B3BE-F82F-8626-719689EA95C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evasion", "Evasion.csproj", "{263F2CB7-BD16-6F47-EE14-2DC2080D321D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evasion.Editor.Plugins", "Evasion.Editor.Plugins.csproj", "{50C6AB56-BAE6-C8ED-0BAA-C8841D2EAB15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B20FFF9F-B3BE-F82F-8626-719689EA95C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20FFF9F-B3BE-F82F-8626-719689EA95C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20FFF9F-B3BE-F82F-8626-719689EA95C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20FFF9F-B3BE-F82F-8626-719689EA95C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{263F2CB7-BD16-6F47-EE14-2DC2080D321D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263F2CB7-BD16-6F47-EE14-2DC2080D321D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263F2CB7-BD16-6F47-EE14-2DC2080D321D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263F2CB7-BD16-6F47-EE14-2DC2080D321D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50C6AB56-BAE6-C8ED-0BAA-C8841D2EAB15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C6AB56-BAE6-C8ED-0BAA-C8841D2EAB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C6AB56-BAE6-C8ED-0BAA-C8841D2EAB15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C6AB56-BAE6-C8ED-0BAA-C8841D2EAB15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
