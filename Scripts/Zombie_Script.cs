@@ -4,15 +4,27 @@ using UnityEngine;
 
 public class Zombie_Script : MonoBehaviour {
 
-	public Transform Player;
-    
-    // Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        transform.localPosition = Vector3.Lerp(transform.localPosition, Player.localPosition, 0.009f);
-	}
+    public bool JoueurVu = false;
+
+    void Start()
+    {
+        
+    }
+
+    private void OnTriggerEnter(Collider col)
+    {
+        if(col.gameObject.name == "Player")
+        {
+            JoueurVu = true;
+        }
+    }
+
+    void Update()
+    {
+        if (JoueurVu)
+        {
+            transform.LookAt(GameObject.Find("Player").transform.position);
+        }
+
+    }
 }
